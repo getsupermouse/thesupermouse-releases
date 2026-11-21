@@ -1,16 +1,42 @@
 {
-  "version": "1.0",
-  "name": "THE SUPERMOUSE 1.0",
-  "headline": "THE SUPERMOUSE 1.0 (LATEST)",
-  "subtext": "You are running the latest official Version 1.0 release.",
-  "date": "20 Nov 2026",
-  "size_mb": "0.0 MB",
-  "total_size_mb": 0.0,
-  "parts": [],
-  "download_url": "",
-  "patch_url": "",
-  "patch_sha256": "",
-  "patch_size_mb": "0.0 MB",
-  "updates": [],
-  "replace": []
+  "version": "1.01",
+  "name": "THE SUPERMOUSE 1.01",
+  "headline": "THE SUPERMOUSE 1.01 (LATEST)",
+  "subtext": "Access & Settings button borders, smooth cursor size stepper, and performance upgrades.",
+  "date": "21 Nov 2026",
+  "size_mb": "0.16 MB",
+  "total_size_mb": 0.16,
+  "download_url": "https://github.com/getsupermouse/supermousenewnupdates/releases/download/v1.01/TheSuperMouse_Full.zip",
+  "patch_url": "https://github.com/getsupermouse/supermousenewnupdates/releases/download/v1.01/patch_v1.01.zip",
+  "patch_sha256": "cca542d83034a5e3883340b94f3613d563cd2b708f5b4f81de3c8b0e73f5cd05",
+  "patch_size_mb": "0.16 MB",
+  "full_sha256": "737366fdf49837d762cbebf92df930ff7b454929dfd2cedf368d373ec5234287",
+  "full_size_mb": "115.53 MB",
+  "updates": [
+    {
+      "version": "1.01",
+      "headline": "SuperMouse Update v1.01",
+      "subtext": "Access & Settings button borders, smooth cursor size stepper, and performance upgrades.",
+      "date": "21 Nov 2026",
+      "size_mb": 0.16,
+      "patch_url": "https://github.com/getsupermouse/supermousenewnupdates/releases/download/v1.01/patch_v1.01.zip",
+      "full_url": "https://github.com/getsupermouse/supermousenewnupdates/releases/download/v1.01/TheSuperMouse_Full.zip"
+    }
+  ],
+  "replace": [
+    "features/quick_menu.py",
+    "features/runner.py",
+    "features/patch_checker/patch_engine.py",
+    "features/super_share/common.py",
+    "features/super_share/device_hub.py",
+    "features/super_share/menu_window.py",
+    "features/super_share/settings.py",
+    "features/super_snap_and_pin/window.py",
+    "core/global_triggers.py",
+    "main_app.py",
+    "super_clipboard.py",
+    "version.json",
+    "thesupermouse/config/access_settings.json",
+    "thesupermouse/browser_selection_theme/manifest.json"
+  ]
 }
